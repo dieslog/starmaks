@@ -1,0 +1,159 @@
+.breadcrumb_content_wrapper {
+    background-color: #009C93;
+}
+
+.breadcrumb_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-height: 123px;
+}
+
+.breadcrumb_content__header {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 20px 0 10px;
+}
+
+.breadcrumb-item, .breadcrumb-item.active, .breadcrumb-item + .breadcrumb-item::before {
+    color: #4F5361;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    color: #4F5361;
+}
+
+.content {
+    padding: 60px 0 0;
+}
+
+.heading2 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 36px;
+    color: #009C93;
+    margin-bottom: 50px;
+}
+
+.heading-helper {
+    margin-top: 125px;
+    margin-bottom: 0;
+}
+
+.heading3 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 33px;
+}
+
+.list {
+    list-style: none;
+    padding-left: 10px;
+    margin-bottom: 61px;
+}
+
+.list li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 28px;
+    background: url('../images/icon/ellipse.png') left top no-repeat;
+    background-size: 11px 22px;
+    padding-left: 30px;
+    min-height: 22px;
+}
+
+.black_list {
+    margin-bottom: 120px;
+}
+
+.black_list span {
+    display: none;
+}
+
+@media (max-width: 767px) {
+
+    .breadcrumb_content {
+        padding-left: 20px;
+    }
+
+    .breadcrumb_content__header {
+        font-size: 22px;
+    }
+
+    .breadcrumb-item, .breadcrumb-item.active, .breadcrumb-item + .breadcrumb-item::before {
+        font-size: 12px;
+    }
+
+    .content {
+        padding: 30px 20px 0;
+    }
+
+
+    .heading2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 42px;
+    }
+
+    .heading-helper {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .heading3 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+
+    .list {
+        padding-left: 0;
+    }
+
+    .list li {
+        background: url('../images/icon/ellipse.png') left 5px no-repeat;
+        background-size: 11px 22px;
+    }
+
+    .black_list_wrapper {
+        background: #000000CC;
+    }
+
+    .black_list_wrapper .content {
+        padding: 0;
+    }
+
+    .black_list {
+        color: #FFFFFF;
+        font-weight: 600;
+        list-style: none;
+        padding: 45px 15px 1px 0;
+        margin-bottom: 0;
+    }
+
+    .black_list li {
+        background: none;
+        padding-left: 20px;
+    }
+
+    .black_list span {
+        display: block;
+        margin: 15px 0 55px 0;
+        font-weight: 500;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        line-height: 21px;
+        text-decoration: underline;
+    }
+
+    .black_list span a {
+        color: #ffffff;
+    }
+}
